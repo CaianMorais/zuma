@@ -217,15 +217,25 @@ body {
 }
 
 @media (max-width:700px){
+    .main {
+        background-image: none;
+        background-repeat: no-repeat;
+        background-size: contain;
+        align-items: center;
+        text-align: center;
+    }
     .container{
+        height:auto;
         grid-template-columns: 50% 50%;
+        display:inline-block;
     }
     .container__titulo{
-        font-size: 1.3rem;
+        font-size: 1rem;
+
     }
     .container__imagem{
         margin:0;
-        width: 80%;
+        width: 50%;
     }
     .container__botao{
         padding: 0.5rem 0rem;
@@ -239,23 +249,30 @@ body {
     }
     .descricao__texto{
         font-size: 0.9rem;
+        margin-bottom: 5rem;
+    }
+    .filmes__texto{
+        margin: 5rem 0rem 1rem;
     }
     .imagem__filmes{
         width: 90%;
-        margin:0rem 3rem;
+        margin:0rem 2rem 5rem;
     }
     .imagem__download{
-        width: 70%;
-        margin-left: 2rem;
+        width: 60%;
+        margin-left: 5rem;
     }
     .dispositivos__titulo{
         font-size:2.2rem;
     }
     .dispositivos__lista{
-        gap: 1rem;
+        gap: 0rem;
     }
     .dispositivos__lista img{
         width: 100%;
+    }
+    .tv{
+        margin-top: 1rem;
     }
     .rodape__logo{
         width: 15%;
