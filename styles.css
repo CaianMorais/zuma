@@ -215,3 +215,49 @@ body {
 .rodape a:hover{
     color: var(--cinza-secundario);
 }
+
+@media (max-width:700px){
+    .container{
+        grid-template-columns: 50% 50%;
+    }
+    .container__titulo{
+        font-size: 1.3rem;
+    }
+    .container__imagem{
+        margin:0;
+        width: 80%;
+    }
+    .container__botao{
+        padding: 0.5rem 0rem;
+        font-size: 0.87rem;
+    }
+    .secundario__botao{
+        padding: 0.5rem 0rem;
+    }
+    .descricao__titulo{
+        font-size: 1.2rem;
+    }
+    .descricao__texto{
+        font-size: 0.9rem;
+    }
+    .imagem__filmes{
+        width: 90%;
+        margin:0rem 3rem;
+    }
+    .imagem__download{
+        width: 70%;
+        margin-left: 2rem;
+    }
+    .dispositivos__titulo{
+        font-size:2.2rem;
+    }
+    .dispositivos__lista{
+        gap: 1rem;
+    }
+    .dispositivos__lista img{
+        width: 100%;
+    }
+    .rodape__logo{
+        width: 15%;
+    }
+}
