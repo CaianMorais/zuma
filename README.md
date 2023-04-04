@@ -5,7 +5,7 @@
 Esse projeto é uma interface de uma plataforma de streaming em HTML e CSS que desenvolvi para praticar, treinar minha habilidades e conhecer mais atalhos sobre as duas linguagens. E também pratiquei e treinei um pouco mais minhas habilidades com Photoshop para realizar todas as imagens e logos que aparecem nesse projeto. Lembrando que <strong>Zuma</strong> é uma plataforma fictícia com logos e imagens criadas e montadas com imagens encontradas gratuitamente nas ferramentas de pesquisa internet à fora.
 
 ## :link: Acesse o Zuma:
-* <a href=""> Clique aqui</a>
+* <a href="https://bit.ly/zumafilmes"> Clique aqui</a>
 
 ## :wrench: Ferramentas utlizadas:
 
